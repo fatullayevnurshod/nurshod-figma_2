@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e5e5e5;
+}
+.container {
+  width: 1110px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  height: 100px;
+  background-color: #e0eeee;
+}
+.navbar {
+  display: flex;
+  column-gap: 260px;
+  align-items: center;
+}
+.links .link ul {
+  display: flex;
+  column-gap: 56px;
+  list-style: none;
+}
+.link ul li a {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #59564f;
+}
+.links {
+  display: flex;
+  column-gap: 157px;
+}
+.links .icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 39px;
+}
+header {
+  width: 100%;
+  height: 900px;
+  background-color: #fcffff;
+}
+.postal_service {
+  width: 750px;
+  height: 350px;
+  margin: auto;
+  margin-top: 184px;
+}
+.postal_service h1 {
+  width: 890px;
+  height: 132px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  color: #414d4d;
+  margin-left: -50px;
+}
+.email button {
+  position: relative;
+  left: 350px;
+  top: -80px;
+  width: 200px;
+  height: 72px;
+  background: #3d6177;
+  border-radius: 16px;
+  color: white;
+  border: none;
+}
+.email {
+  margin-left: 115px;
+  margin-top: 48px;
+}
+.email input {
+  padding: 35px 250px 35px 40px;
+  width: 560px;
+  height: 90px;
+  border-radius: 20px;
+  border: none;
+  border: 1px solid #e0eeee;
+}
+.end_header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 88px;
+  margin-top: 150px;
+}
+.main_start {
+  width: 100%;
+  height: 512px;
+  background-color: #e0eded;
+}
+.main_start h3 {
+  width: 1110px;
+  height: 270px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414d4d;
+}
+.main_start p span {
+  width: 431px;
+  height: 27px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #566666;
+}
+.texts {
+  padding-top: 120px;
+}
+.main_medium_fon {
+  width: 100%;
+  height: 1490px;
+  background-color: #fcffff;
+}
+.main_medium {
+  display: flex;
+  column-gap: 50px;
+  padding-top: 177px;
+}
+.main_medium .main_medium_left h3 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  color: #414d4d;
+  margin-bottom: 13px;
+}
+.main_medium .main_medium_left p {
+  width: 450px;
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+  margin-bottom: 64px;
+}
+.select {
+  width: 450px;
+  display: flex;
+  column-gap: 210px;
+}
+.select h5 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+.select_2 {
+  width: 450px;
+  display: flex;
+  column-gap: 165px;
+}
+.select_2 h5 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+.select_3 {
+  width: 450px;
+  display: flex;
+  column-gap: 78px;
+}
+.select_3 h5 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #566666;
+}
+.line {
+  width: 450px;
+  border: 1px solid #e6f2f2;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.select_3 + p {
+  font-family: "Rubik";
+  font-size: 16px;
+  line-height: 150%;
+  color: #566666;
+  margin-top: 23px;
+}
+.main_medium img {
+  margin-top: -30px;
+}
+.three_imgs {
+  display: flex;
+  padding-top: 64px;
+  column-gap: 24px;
+}
+.main_medium_2 {
+  padding-top: 155px;
+}
+.texts_2 {
+  width: 700px;
+  margin: auto;
+}
+.main_medium_2 h3 {
+  width: 750px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 50px;
+  color: #414d4d;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.main_medium_2 p {
+  width: 750px;
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #566666;
+}
+.img_1 h4,
+.img_2 h4,
+.img_3 h4 {
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #414d4d;
+  margin-bottom: 40px;
+  padding-top: 24px;
+}
+.img_1 a,
+.img_2 a,
+.img_3 a {
+  width: 97px;
+  height: 24px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3d6177;
+  text-decoration: none;
+}
+.main_end {
+  width: 100%;
+  height: 429px;
+  background-color: #e0eded;
+}
+.main_end .text {
+  padding-top: 100px;
+}
+.main_end .text_3 {
+  width: 900px;
+  margin: auto;
+}
+.main_end .text h2 {
+  width: 890px;
+  height: 66px;
+  font-family: "Rubik";
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: center;
+  color: #414d4d;
+}
+.main_end .text p {
+  width: 890px;
+  height: 27px;
+  font-family: "Rubik";
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #566666;
+}
+
+.footer {
+  display: flex;
+  column-gap: 326px;
+  align-items: center;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #c5dddd;
+  display: flex;
+}
+.links_2 .link_2 ul {
+  display: flex;
+  column-gap: 56px;
+  list-style: none;
+}
+.link_2 ul li a {
+  text-decoration: none;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #59564f;
+}
+.links_2 {
+  display: flex;
+  column-gap: 240px;
+}
+.links_2 .icons_2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 39px;
+}
+.email_2 input {
+  border: none;
+  padding: 35px 250px 35px 40px;
+  width: 560px;
+  height: 90px;
+  border: none;
+  border: 1px solid #e0eeee;
+  border-radius: 20px;
+}
+.email_2 {
+  margin-left: 280px;
+  margin-top: 30px;
+}
+.email_2 button {
+  position: relative;
+  left: -210px;
+  width: 200px;
+  height: 72px;
+  background: #3d6177;
+  border-radius: 16px;
+  color: white;
+  padding: 0 -500px 20px;
+  border: none;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+i {
+  color: #3d6177;
+}
+.img_1,
+.img_2,
+.img_3 {
+  filter: grayscale(1);
+}
+/* button {
+  transform: translate(170px, -135px);
+  padding: 25px 56px;
+  background: #3d6177;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fcfeff;
+} */
